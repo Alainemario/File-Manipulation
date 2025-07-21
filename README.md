@@ -24,3 +24,5 @@ The program prompts the user to input a file path and then provides a menu to pe
 - A terminal or IDE to compile and run the Java file
 
 Output
+<img width="1909" height="1005" alt="Image" src="https://github.com/user-attachments/assets/6ff456c9-4b09-4271-a960-00b30fa69d29" />
+<img width="1910" height="980" alt="Image" src="https://github.com/user-attachments/assets/2a7d867b-ef44-4143-bc8b-99c1657dbfb3" />
