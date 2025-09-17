@@ -45,6 +45,7 @@ Java Development Kit (JDK) 8 or above
 
 Any IDE (IntelliJ, Eclipse, NetBeans) or terminal to compile and run
 
-▶️ Running the Application
+sample output
+<img width="746" height="503" alt="Image" src="https://github.com/user-attachments/assets/610a93de-0008-4c85-8959-acbf7eb033a5" />
 
-Compile the project:
+<img width="750" height="508" alt="Image" src="https://github.com/user-attachments/assets/ecad365b-5e18-4552-9549-357b696af06d" />
