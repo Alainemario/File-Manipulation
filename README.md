@@ -1,28 +1,50 @@
 
-# FileHandle Java Application
+FileHandle Java GUI Application
 
-A simple Java console application that provides basic file handling operations such as writing, reading, appending, and modifying file content using the standard `java.io` and `java.nio.file` libraries.
+A simple Java Swing-based GUI application for performing basic file handling operations. This project provides an easy-to-use interface to open, read, write, and modify file content without relying on a console menu.
 
-## Features
+✨ Features
 
-- ✅ Write content to a file
-- ✅ Read content from a file
-- ✅ Append content to an existing file
-- ✅ Modify file content by replacing specific words
-- ✅ Simple menu-based interface in the terminal
+✅ Open File – Select a file using a file chooser dialog
 
-## How It Works
+✅ Write to File – Overwrite file content with the editor text
 
-The program prompts the user to input a file path and then provides a menu to perform operations on that file. It uses:
-- `BufferedWriter` and `FileWriter` for writing/appending
-- `BufferedReader` and `FileReader` for reading
-- `Files.readAllBytes()` and `Files.write()` for content modification
+✅ Read File – Load file content into the text editor
 
-## Prerequisites
+✅ Modify Content – Replace specific words in the file
 
-- Java Development Kit (JDK) 8 or above
-- A terminal or IDE to compile and run the Java file
+✅ Exit – Close the application safely
 
-Output
-<img width="1909" height="1005" alt="Image" src="https://github.com/user-attachments/assets/6ff456c9-4b09-4271-a960-00b30fa69d29" />
-<img width="1910" height="980" alt="Image" src="https://github.com/user-attachments/assets/2a7d867b-ef44-4143-bc8b-99c1657dbfb3" />
+🛠 How It Works
+
+The application uses a Swing GUI (JFrame, JButton, JTextArea) to interact with the user.
+
+A JTextArea allows typing or viewing file content.
+
+File operations are handled through a separate FileOperations utility class.
+
+The application is modular, split into:
+
+AppLauncher.java → Main entry point
+
+FileHandleGUI.java → GUI (Swing components)
+
+FileOperations.java → File handling logic
+
+Libraries Used
+
+javax.swing → GUI components
+
+java.io → File read/write operations
+
+java.nio.file → Modify file content
+
+🚀 Prerequisites
+
+Java Development Kit (JDK) 8 or above
+
+Any IDE (IntelliJ, Eclipse, NetBeans) or terminal to compile and run
+
+▶️ Running the Application
+
+Compile the project:
